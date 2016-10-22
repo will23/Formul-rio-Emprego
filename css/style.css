@@ -1,0 +1,235 @@
+/*!
+ *CSS Style Will 11/06/2016
+ */
+html, body, span, p, form, img, a, ul, ol, li, table, tr, td, div{
+    margin: 0;
+    padding: 0;
+    border:none;
+    outline:none;
+    list-style-type:none;
+}
+
+@media (max-width: 1366px){
+header {
+        min-height: 800px;
+    }
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Regular_0.ttf);
+}
+/*Background black */
+#grad1{
+    width: 100%;
+    height: 150px;
+    background: black;
+}
+#grad2{
+    width: 100%;
+    height: 350px;
+    background: #ebebeb;
+    margin-top: -40px;
+}
+#grad3{
+    width: 13%;
+    height: 2px;
+    background: #54c41b;
+}
+#grad4{
+    width: 13%;
+    height: 2px;
+    margin-left: 245px;
+    background: #54c41b;
+}
+#grad5{
+    width: 23%;
+    height: 2px;
+    margin-left: 4px;
+    background: #54c41b;
+}
+#grad6{
+    width: 80%;
+    height: 2px;
+    background: #54c41b;
+}
+#grad7{
+    width: 83%;
+    height: 2px;
+    background: #54c41b;
+}
+.img-logo{
+    position: absolute;
+    padding: 0 36%;
+    bottom: 513px;
+    margin-left: -48px;
+}
+#image-proton{
+    margin-left: -244px;
+}
+
+.navbar-inverse {
+    background-color: #54c41b;
+    border-color: #54c41b;
+}
+
+@media(max-width:300px){
+    .img-logo {
+        position: fixed;
+        padding: 0 27%;
+        bottom: 314px;
+    }
+}
+
+@media(max-width:500px){
+    .img-logo {
+        position: fixed;
+        padding: 0 27%;
+        bottom: 86%;
+    }
+}
+.navbar{
+    margin-top: -28px !important;
+    min-height: 60px !important;
+}
+.navbar-nav{
+    padding-top: 7px;
+    padding-left: 215px;
+}
+.text-left{
+    color: #ffffff;
+    font-size: 3em;
+    margin-left: 30px;
+}
+.navbar-inverse, .navbar-nav li.active a {
+    color: #000 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    border-bottom: solid;
+    border-color: #000 transparent;
+}
+.navbar-inverse li a, .navbar-inverse li{
+    text-transform: uppercase;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+    color: #000 !important;
+    background-color: transparent;
+}
+
+h1{
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.new-text{
+    font-size: 0.6em;
+}
+.button{
+    background-color: #54c41b;
+    border: none;
+    padding: 11px 42px;
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@media(max-width:1440px){
+.header {
+    min-height: 835px;
+    }
+}
+
+/*Footer style*/
+footer{
+    height: 172px;
+    position: relative;
+    z-index: 500;
+    padding-bottom: 0!important;
+    font-size: 12px;
+    background-color: #000;
+}
+#row-rodape{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+h4{
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.col-xs-6, .col-sm-1{
+    color: #ffffff;
+}
+.col-xs-6, .col-sm-6{
+    padding-left: 380px;
+    padding-top: 12px;
+}
+.glyphicon-earphone, .glyphicon-envelope{
+    color: #54c41b;
+    padding-right: 5px;
+}
+#contato{
+    margin-left: -190px;
+    margin-top: 22px;
+    width: 14%;
+}
+#endereco{
+    margin-left: 210px;
+    margin-top: 22px;
+    width: 14%;
+}
+
+
+/* CSS FORMULARIO */
+<!--
+@charset "iso-8859-1";
+
+
+
+@font-face {
+    font-family: Raleway;
+    src: url(../fonts/Raleway/Raleway-Regular_0.ttf);
+}
+
+
+.tablecartao {
+    margin: 0px;
+    margin-top: 0px;
+    text-align: center;
+    border: 1px solid #97DC22;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    -webkit-box-shadow: 0 1px 3px 1px rgba(0,0,0,.05);
+    -moz-box-shadow: 0 1px 3px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 3px 1px rgba(0,0,0,.05);
+    background-color: #FFF;
+    color:#000000;
+    font-family:Arial, Helvetica, sans-serif;
+    border:solid 1px #CCC;
+}
+
+.TitLs {color: #FFFFFF; font-family:"Conv_LS Cooper Black";text-shadow: 0px 0px #333333;}
+.TitTitulo {font-size: 18px; font-family:Arial, Helvetica, sans-serif;  color: #84c103; font-weight:bold; }
+.TitContPag {font-size: 14px; font-family:Arial, Helvetica, sans-serif;  color: #000;  }
+-->
+
+textarea, input, select {
+    padding: 4px;
+    font-size: 12px;
+    text-shadow: 0px 1px 0px #F4F4F4;
+    outline: none;
+    background: -webkit-gradient(linear, left top, left bottombottom, from(#EEE), to(#FFF));
+    background: -moz-linear-gradient(top,  #FFF,  #CCC);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #AAAAAA;
+    color: #000000;
+    font-weight:bold;
+    background-color: #F4F4F4;
+}
+
+
